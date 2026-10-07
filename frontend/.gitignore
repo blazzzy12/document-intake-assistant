@@ -1,0 +1,27 @@
+# Environment & Secrets (Mandatory Security)
+.env
+*.env
+.env.*
+!.env.example
+
+# Python Runtime & Caches
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+.pytest_cache/
+
+# Node & Build artifacts
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.vite/
+
+# System & IDE artifacts
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log

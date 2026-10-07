@@ -1,0 +1,29 @@
+# Secrets & Environment Variables
+.env
+*.env
+backend/.env
+backend/*.env
+!.env.example
+!backend/.env.example
+
+# Python Cache & Virtual Environments
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Node / Frontend Artifacts
+node_modules/
+frontend/node_modules/
+dist/
+build/
+.vite/
+
+# System / IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
